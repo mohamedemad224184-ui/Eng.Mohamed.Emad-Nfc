@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#07121f" />
+  <meta name="description" content="بطاقة التواصل الرقمية للمهندس Mohamed Emad" />
+  <title>Mohamed Emad | NFC Card</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <div class="circuit circuit-one" aria-hidden="true"></div>
+    <div class="circuit circuit-two" aria-hidden="true"></div>
+
+    <header class="profile">
+      <!-- لاستبدال الصورة: ضع صورتك باسم profile.jpg داخل images ثم غيّر profile.svg إلى profile.jpg هنا. -->
+      <div class="avatar-wrap">
+        <img class="avatar" src="images/profile.jpg" alt="صورة Mohamed Emad الشخصية" />
+      </div>
+      <p class="eyebrow">NFC DIGITAL CARD</p>
+      <h1>محمد عماد <span>Mohamed Emad</span></h1>
+      <p class="role">Eng. Mohamed Emad</p>
+      <p class="study">Electronics Student — 3rd Year</p>
+      <p class="academy">أكاديمية السويدي الفنية بالعاشر من رمضان<br /><span>قسم الإلكترونيات</span></p>
+      <p class="skills">Electronics <i>•</i> Web Development <i>•</i> App Development <i>•</i> ESP32 <i>•</i> Arduino <i>•</i> AI</p>
+      <p class="availability"><span></span> Available for collaboration</p>
+    </header>
+
+    <section class="links" aria-label="وسائل التواصل">
+      <a class="link whatsapp" href="https://wa.me/201094434198" target="_blank" rel="noopener"><b>◉</b><span>WhatsApp</span><small>تواصل مباشرة</small><em>←</em></a>
+      <!-- غيّر رابط Facebook في script.js عند توفر رابط الحساب. -->
+      <a id="facebookLink" class="link facebook" href="https://www.facebook.com/" target="_blank" rel="noopener"><b>f</b><span>Facebook</span><small>تابعني على فيسبوك</small><em>←</em></a>
+      <a class="link tiktok" href="https://www.tiktok.com/@mohamed_emad_010" target="_blank" rel="noopener"><b>♪</b><span>TikTok</span><small>@mohamed_emad_010</small><em>←</em></a>
+      <a class="link instagram" href="https://www.instagram.com/mohamed_e1mad/" target="_blank" rel="noopener"><b>◎</b><span>Instagram</span><small>@mohamed_e1mad</small><em>←</em></a>
+      <a class="link website" href="https://mohamedemad224184-ui.github.io/Eng.Mohamed.Emad/" target="_blank" rel="noopener"><b>⌘</b><span>My Personal Website</span><small>الموقع الشخصي</small><em>←</em></a>
+    </section>
+
+    <section class="payment-links" aria-label="Payment links">
+      <p class="payment-title">SEND MONEY</p>
+      <a class="payment-link instapay" href="https://ipn.eg/S/mohamede1mad/instapay/6NvYO4" target="_blank" rel="noopener">
+        <span class="payment-icon" aria-hidden="true">IP</span>
+        <span><strong>InstaPay</strong><small>اضغط لإرسال نقود إلى mohamede1mad@instapay</small></span>
+        <em aria-hidden="true">←</em>
+      </a>
+      <a class="payment-link vodafone-cash" href="http://vf.eg/vfcash?id=mt&amp;qrId=4NHOUX" target="_blank" rel="noopener">
+        <span class="payment-icon" aria-hidden="true">V</span>
+        <span><strong>Vodafone Cash</strong><small>اضغط لإرسال نقود عبر فودافون كاش</small></span>
+        <em aria-hidden="true">←</em>
+      </a>
+    </section>
+
+    <section class="actions" aria-label="إجراءات البطاقة">
+      <a class="action save" href="contact/Mohamed-Emad.vcf" download="Mohamed-Emad.vcf"><span>⇩</span> Save Contact</a>
+    </section>
+
+    <footer class="qr-section">
+      <div class="qr-frame"><img id="qrCode" alt="QR Code لصفحة بطاقة Mohamed Emad" width="130" height="130" /></div>
+      <p>SCAN TO CONNECT</p>
+    </footer>
+  </main>
+  <p class="toast" id="toast" role="status" aria-live="polite"></p>
+  <script src="script.js"></script>
+</body>
+</html>
