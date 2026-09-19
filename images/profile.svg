@@ -1,4 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Mohamed Emad profile placeholder">
-  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#1adbe0"/><stop offset="1" stop-color="#345fd7"/></linearGradient></defs>
-  <rect width="400" height="400" fill="#0b2135"/><circle cx="200" cy="145" r="72" fill="url(#g)"/><path d="M60 390c16-105 79-151 140-151s124 46 140 151" fill="url(#g)"/><text x="200" y="355" fill="#e9feff" text-anchor="middle" font-family="Arial, sans-serif" font-size="29" font-weight="bold">YOUR PHOTO</text>
-</svg>
