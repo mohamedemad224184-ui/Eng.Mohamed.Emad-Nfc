@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Khaled Elgafarey - Electronics Student digital profile">
+  <meta name="theme-color" content="#090d14">
+  <title>خالد الجعفري | بطاقة تعريف رقمية</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500;600;700;800&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <div class="circuit-background" aria-hidden="true">
+    <svg viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice">
+      <g class="trace trace-one"><path d="M-80 165H185l48 48h190l42-42h200M965 70v110h245l62 62h220"/><circle cx="185" cy="165" r="7"/><circle cx="465" cy="171" r="7"/><circle cx="965" cy="180" r="7"/></g>
+      <g class="trace trace-two"><path d="M30 720h220l45-45h165l55 55h220v-145h180l48-48h250"/><circle cx="250" cy="720" r="7"/><circle cx="735" cy="730" r="7"/><circle cx="915" cy="585" r="7"/></g>
+      <g class="component resistor r-one"><path d="M0 18h28l7-12 12 24 12-24 12 24 12-24 12 24 7-12h30"/><text x="25" y="48">R 10K</text></g>
+      <g class="component capacitor c-one"><path d="M0 18h38M38 0v36M52 0v36M52 18h42"/><text x="14" y="58">C 100nF</text></g>
+      <g class="component diode d-one"><path d="M0 18h24l28-18v36L24 18M62 0v36M62 18h40"/><text x="21" y="58">D1</text></g>
+      <g class="component led led-one"><circle cx="42" cy="25" r="18"/><path d="M0 25h24m36 0h35M71 3l15-15M78 12l18-5"/><text x="22" y="65">LED</text></g>
+      <g class="component chip chip-one"><rect x="18" y="12" width="100" height="62" rx="4"/><path d="M0 22h18m-18 18h18m-18 18h18m100-36h18m-18 18h18m-18 18h18"/><text x="42" y="50">IC 555</text></g>
+      <g class="component board board-one"><rect x="0" y="0" width="150" height="85" rx="8"/><rect x="15" y="17" width="58" height="45" rx="3"/><circle cx="110" cy="20" r="5"/><circle cx="128" cy="20" r="5"/><circle cx="110" cy="63" r="5"/><path d="M73 30h36M73 48h55"/><text x="26" y="45">ESP32</text></g>
+      <g class="signal"><path d="M0 25h16l12-20 18 40 20-40 18 40 14-20h22"/><text x="25" y="72">SIGNAL</text></g>
+    </svg>
+  </div>
+  <main class="container">
+    <section class="profile-card" aria-label="بطاقة خالد الجعفري التعريفية">
+      <div class="card-components" aria-hidden="true">
+        <svg viewBox="0 0 490 760" preserveAspectRatio="none">
+          <defs>
+            <linearGradient id="resistorBody" x1="0" x2="1"><stop stop-color="#b98656"/><stop offset=".5" stop-color="#e4b982"/><stop offset="1" stop-color="#845532"/></linearGradient>
+            <linearGradient id="capBody" x1="0" x2="1"><stop stop-color="#164d68"/><stop offset=".5" stop-color="#3192bd"/><stop offset="1" stop-color="#0b3049"/></linearGradient>
+            <linearGradient id="chipBody" x1="0" x2="1"><stop stop-color="#0a111b"/><stop offset=".5" stop-color="#263a4d"/><stop offset="1" stop-color="#080e15"/></linearGradient>
+          </defs>
+          <g class="physical resistor-real"><path class="wire" d="M-10 123h70m115 0h70"/><rect x="60" y="101" width="115" height="44" rx="21" fill="url(#resistorBody)"/><path class="band b1" d="M88 103v40"/><path class="band b2" d="M109 102v42"/><path class="band b3" d="M139 102v42"/><path class="band b4" d="M158 104v38"/></g>
+          <g class="physical capacitor-real"><path class="wire" d="M388 185v58m34-58v58"/><rect x="376" y="107" width="58" height="82" rx="10" fill="url(#capBody)"/><ellipse cx="405" cy="108" rx="29" ry="8" fill="#79cee9"/><path d="M390 133h30M390 148h30" class="detail"/></g>
+          <g class="physical chip-real"><rect x="38" y="412" width="145" height="91" rx="10" fill="url(#chipBody)"/><rect x="57" y="429" width="108" height="13" rx="3" class="chip-label"/><text x="76" y="474">NE555</text><g class="pins"><path d="M38 429H15m23 19H15m23 19H15m23 19H15M183 429h23m-23 19h23m-23 19h23m-23 19h23"/></g></g>
+          <g class="physical diode-real"><path class="wire" d="M250 600h55m82 0h57"/><rect x="305" y="585" width="82" height="30" rx="14" fill="#1c2733"/><path d="M370 587v26" stroke="#d4e8f2" stroke-width="5"/></g>
+          <g class="physical led-real"><path class="wire" d="M406 493v64m20-64v64"/><path d="M394 468a22 22 0 0 1 44 0v23h-44z" fill="#37cae9"/><path d="M400 490h32" class="detail"/><circle cx="416" cy="477" r="8" fill="#c6f7ff"/></g>
+          <g class="physical board-real"><rect x="225" y="300" width="128" height="84" rx="8" fill="#176e69"/><rect x="237" y="316" width="56" height="45" rx="4" fill="#102d35"/><path d="M293 327h42m-42 15h32m-32 14h42" class="board-trace"/><circle cx="329" cy="318" r="5"/><circle cx="329" cy="365" r="5"/><text x="242" y="345">ESP32</text></g>
+        </svg>
+      </div>
+      <button class="language-toggle" type="button" data-language-toggle aria-label="Switch to English">EN</button>
+      <p class="topline"><span>PROFILE</span><span class="star">✦</span></p>
+      <div class="profile-image"><img src="https://videotourl.com/images/1787775630338-0517fd8b-1b2c-466a-b1e3-8c9c5800c21d.jpg" alt="خالد الجعفري"></div>
+      <h1 data-ar="خالد الجعفري" data-en="Khaled Elgafarey">خالد الجعفري</h1>
+      <p class="english" data-ar="Khaled Elgafarey" data-en="خالد الجعفري">Khaled Elgafarey</p>
+      <p class="role" data-ar="طالب بأكاديمية السويدي الفنية — قسم الإلكترونيات" data-en="Electronics student at Al-Suwaidi Technical Academy"><b>✦</b> طالب بأكاديمية السويدي الفنية — قسم الإلكترونيات <b>✦</b></p>
+      <nav class="links" aria-label="روابط التواصل">
+        <a class="link-button" href="https://wa.me/201010474002" target="_blank" rel="noopener"><span class="icon">◌</span>WhatsApp<span class="arrow">‹</span></a>
+        <a class="link-button" href="tel:+201010474002"><span class="icon">☎</span><span data-ar="اتصال مباشر" data-en="Call me">اتصال مباشر</span><span class="arrow">‹</span></a>
+        <a class="link-button" href="https://www.facebook.com/share/1C6KMp8SJZ/" target="_blank" rel="noopener"><span class="icon">f</span>Facebook<span class="arrow">‹</span></a>
+        <a class="link-button" href="https://www.instagram.com/khaledelgafarey_?igsi=MTgzajVzd2RibzJhZQ==" target="_blank" rel="noopener"><span class="icon">◎</span>Instagram<span class="arrow">‹</span></a>
+        <a class="link-button" href="https://www.tiktok.com/@khaledelgafarey0?_r=1&_t=ZS-99DJN9cPwxT" target="_blank" rel="noopener"><span class="icon">♪</span>TikTok<span class="arrow">‹</span></a>
+        <a class="link-button" href="https://mlthnrgev-cell.github.io/Eng-Khaled-Elgafarey-/index.html" target="_blank" rel="noopener"><span class="icon">◍</span><span data-ar="موقعي الشخصي" data-en="My website">موقعي الشخصي</span><span class="arrow">‹</span></a>
+      </nav>
+      <div class="divider" aria-hidden="true"><i></i></div>
+      <button class="link-button save-contact" type="button" data-save-contact><span class="icon">▣</span><span data-ar="حفظ بياناتي في جهات الاتصال" data-en="Save my contact details">حفظ بياناتي في جهات الاتصال</span></button>
+      <button class="link-button qr-button" type="button" data-qr-open><span class="icon">▦</span><span data-ar="مشاركة البطاقة عبر QR" data-en="Share profile with QR">مشاركة البطاقة عبر QR</span></button>
+      <div class="divider" aria-hidden="true"><i></i></div>
+      <p class="social-title" data-ar="تابعني على منصات التواصل" data-en="Follow me on social media">تابعني على منصات التواصل</p>
+      <div class="socials"><a class="social" href="https://www.facebook.com/share/1C6KMp8SJZ/" target="_blank" rel="noopener" aria-label="Facebook">f</a><a class="social" href="https://www.instagram.com/khaledelgafarey_?igsi=MTgzajVzd2RibzJhZQ==" target="_blank" rel="noopener" aria-label="Instagram">◎</a><a class="social" href="https://www.tiktok.com/@khaledelgafarey0?_r=1&_t=ZS-99DJN9cPwxT" target="_blank" rel="noopener" aria-label="TikTok">♪</a></div>
+      <p class="footer">© 2026 KHALED ELGAFarey</p><p class="nfc">⌁ NFC DIGITAL PROFILE</p>
+    </section>
+  </main>
+  <div class="qr-modal" data-qr-modal aria-hidden="true"><div class="qr-dialog" role="dialog" aria-modal="true" aria-labelledby="qr-title"><button class="modal-close" data-qr-close aria-label="Close">×</button><p class="qr-kicker">NFC • QR</p><h2 id="qr-title" data-ar="امسح الكود لمشاركة بطاقتي" data-en="Scan to share my profile">امسح الكود لمشاركة بطاقتي</h2><img data-qr-image width="260" height="260" alt="QR code for Khaled Elgafarey profile"><p data-ar="افتح الكاميرا ووجّهها إلى الرمز" data-en="Open your camera and point it at the code">افتح الكاميرا ووجّهها إلى الرمز</p></div></div>
+  <div class="toast" id="toast" role="status" aria-live="polite" data-ar="تم تنزيل بطاقة جهة الاتصال بنجاح" data-en="Contact card downloaded successfully">تم تنزيل بطاقة جهة الاتصال بنجاح</div>
+</body>
+</html>
